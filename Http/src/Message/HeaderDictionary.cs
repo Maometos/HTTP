@@ -6,6 +6,8 @@ public class HeaderDictionary : IEnumerable<KeyValuePair<string, string>>
 {
     private Dictionary<string, string> items = new();
 
+    public HeaderDictionary() { }
+
     public HeaderDictionary(Dictionary<string, string> items)
     {
         this.items = items;

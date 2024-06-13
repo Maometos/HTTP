@@ -2,7 +2,7 @@
 
 namespace Http.Test.Message;
 
-public class UrlTest
+public class UrlParserTest
 {
     [Fact]
     public void TestParsingUrl()
